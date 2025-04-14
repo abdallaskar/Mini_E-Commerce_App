@@ -1,0 +1,174 @@
+
+
+/* Start Global Rules */
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Agnes', sans-serif;
+}
+
+.continer{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;  
+    /* background-color: gray; */
+}
+
+/*  small screen */
+@media (min-width: 768px){
+    .continer{
+        width: 750px;
+    }
+}
+/* medium screen  */
+@media (min-width: 992px){
+    .continer{
+        width: 970px;
+    }
+}
+/* large screen  */
+@media (min-width : 1200px){
+    .continer{
+        width: 1170px;
+    }
+}
+/* End Global Rules */
+
+/* start header */
+.header{
+    padding: 10px;
+}
+.header .continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .continer div{
+    display: flex;
+    align-items: center;
+}
+.header .continer div span{
+
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #333;
+}
+.header .logo{
+    padding: 5px;
+    width: 50px;
+    border-radius: 50%;
+}
+.header .searchBar{
+    width: 320px;
+    height: 37px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+}
+.header .searchButton{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.header .searchButton:hover{
+    background-color: lightcoral;
+}
+.header .user-profile{
+    padding: 5px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* end header */
+
+
+
+/* Start Controller */
+.controller{
+    padding: 10px; 
+}
+.controller .continer{
+    display : flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.controller button{
+    width: 110px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.controller button:hover{
+    background-color: lightcoral;
+}
+.controller label{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.controller select{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* End Controller */
+/* Start main product */
+.poduct{
+    padding: 10px;
+}
+.poduct .continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.poduct .continer .card{
+    text-align: center;
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    /* background-color :#cccc; */
+    margin-bottom: 20px;
+}
+.poduct .continer .card:hover{
+    box-shadow: 0 0 10px lightcoral;
+    transition: 0.5s;
+    transform: scale(1.15);
+}
+.poduct .continer .card img{
+    width: 100%;
+    height: 230px;
+    border-radius: 15px;
+}
+.poduct .continer .card span{
+    font-size: 20px;
+    display: block;
+}
+.poduct .continer .card button{
+    width: 70%;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* End main product */
+/* Start footer */
+.footer{
+    padding: 10px;  
+    text-align : center;
+    font: 20px agness bold;
+}
+/* end footer */

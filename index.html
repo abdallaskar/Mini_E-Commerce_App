@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>products pages</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <!-- Start header  -->
+    <div class="header">
+        <div class="continer">
+            <div>
+                <span> Sakr</span>
+                <img class="logo" src="Images/myLogo.png" alt="Logo">
+            </div>
+            <div class="search-container">
+                <input type="text" class="searchBar" placeholder="Search for products">
+                <button class="searchButton"> Search </button>
+            </div>
+            <img class="user-profile" src="Images/profile.avif" alt="User Profile">
+
+        </div>
+    </div>
+    <!-- End header  -->
+    <!-- Start Contorller -->
+    <div class="controller">
+        <div class="continer">
+            <button class ="all" id="All"> All</button>
+            <button class ="ele" id="Ele"> Electronics</button>
+            <button class ="clo" id="Clo"> Clothing</button>
+            <button class ="sho" id="Sho"> Shoes</button>
+            <label> 
+                sort by price:
+                <select class="sort-by" id ="sort-by">
+                    <option value="default">Default</option>
+                    <option value="low">Low to high</option>
+                    <option value="high">High to low</option>
+                </select>
+            </label>
+
+        </div>
+    </div>
+    <!-- end Contorller -->
+
+    <br> <br>
+    <!-- Start Products -->
+    <div class="poduct">
+        <div class="continer">
+            <table>
+                
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="continer">
+            <p> 2025 Online Shop. All Rights Reserved. &copy; </p>
+    </div>
+
+
+    <!-- <script type="module" src="Js/main.js"></script> -->
+    <script type="module" src="JS/view.js"></script>
+</body>
+</html>
